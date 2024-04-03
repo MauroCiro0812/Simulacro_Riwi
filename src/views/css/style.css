@@ -1,0 +1,157 @@
+/* se importa para el uso de icon de boostrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* se importa tipo de letra para logotipo */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* se importa tipo de letra para titulos subtitulos y botones */
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* estilos navbar-header */
+header{
+    background-image: url(../../../public/img/Mis\ viajes\ \(4\).png);
+    width: 100%;
+    height: 300px;
+    
+}
+
+nav{
+    /* background: transparent ;
+    backdrop-filter: blur(2px); */
+    background-color: rgb(39, 37, 37, 0.6 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    margin-left: 300%;
+    height: 61px;
+}
+
+nav h1{
+    margin-left: -9%;
+    font-family: "Chewy", system-ui;
+    color: white;
+    font-size: 2rem;
+}
+
+.redes-sociales a{
+    text-decoration: none;
+    color: white;
+    margin:2px;
+}
+
+.redes-sociales .uno{
+    background-color: #526DFF ;
+    border-radius: 50%;
+    border: 3px solid #526DFF;
+}
+
+.redes-sociales .dos{
+    background-color: brown ;
+    border-radius: 50%;
+    border: 3px solid brown;
+}
+
+.redes-sociales .tres{
+    background-color: #526DFF ;
+    border-radius: 50% ;
+    border: 3px solid #526DFF;
+}
+
+.redes-sociales .cuatro{
+    background-color: #ff3939 ;
+    border-radius: 50%;
+    border: 3px solid #ff3939;
+}
+
+.redes-sociales .cinco{
+    background-color: #FFC639 ;
+    border-radius: 50%;
+    border: 3px solid #FFC639;
+    
+}
+
+.busqueda a{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+/* estilos seccion de viajes */
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#viajes{
+    width:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.viajes-uno{
+    display: flex;
+    flex-direction: column;
+    margin-top: -443px;
+}
+
+.viajes-uno figure img{
+    width: 100%;
+    height: auto;
+}
+
+.viajes-uno figure{
+    position: relative;
+}
+
+.viajes-uno figure figcaption{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 37, 37, 0.6 );
+}
+
+.viajes-dos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+
+}
+
+.viajes-dos figure img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.viajes-dos figure{
+    position: relative;
+}
+.viajes-dos figure figcaption{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(39, 37, 37, 0.6 );
+}
