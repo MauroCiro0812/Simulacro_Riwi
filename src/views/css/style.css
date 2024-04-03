@@ -190,6 +190,25 @@ section{
 .cont-noticias figure img{
     width: 500px;
 }
+
+/* estilos seccion mapa */
+#mapa{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.caja-mapa{
+    margin-bottom: 200px;
+    
+}
+
+.caja-mapa h2{
+    margin: 30px;
+    color: #526DFF;
+}
 /* estilos footer opie de pagina */
 #foot{
     background-color: black;
