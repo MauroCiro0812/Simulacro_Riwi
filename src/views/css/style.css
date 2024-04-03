@@ -155,3 +155,54 @@ section{
     height: 50px;
     background-color: rgb(39, 37, 37, 0.6 );
 }
+
+/* estilos de noticias */
+#noticias{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 190px;
+    font-family: "Open Sans", sans-serif;
+}
+.cont-noticias{
+    border-bottom: 2px solid #79FF39 ;
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.cont-noticias h2{
+    margin-bottom: 50px;
+    color: #526DFF;
+}
+
+.cont-noticias figure img{
+    width: 500px;
+}
+/* estilos footer opie de pagina */
+#foot{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-foot{
+    margin-left: 60%;
+}
+
+.caja-foot a{
+    text-decoration: none;
+    color: white;
+}
+
+.caja-foot .boton{
+    background-color: rgb(70, 66, 66);
+    color: white;
+}
+
